@@ -1,6 +1,7 @@
 # Scripts Aleatorios
 
-- [ ] Crun
+- [ ] runC
 
-## Crun 
+## runC 
+    Runs a C file with memory checking
 
