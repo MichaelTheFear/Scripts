@@ -1,0 +1,6 @@
+# Scripts Aleatorios
+
+- [ ] Crun
+
+## Crun 
+
