@@ -8,7 +8,7 @@ if [ $1=="-p" ]; then
     git commit -m "$2"
     #You can trade the $2 to match your repo so you dont have to 
     #always type the name of your repo and branch
-    git push modular master
+    git push $3
 else
     #runs pytest and check if failed
     if pytest | grep -q 'failed in '; then
