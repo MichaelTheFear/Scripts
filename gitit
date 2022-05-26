@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#runs pytest and check if failed
+if pytest | grep -q 'failed in '; then
+    echo "Error on test"
+else
+    #checkout 
+    git add .
+    git commit -m "$1"
+    #You can trade the $2 to match your repo so you dont have to 
+    #always type the name of your repo and branch
+    git push $2
+fi
