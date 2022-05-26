@@ -15,10 +15,10 @@
     
     Usage:
     
-    ./giti
+    ./giti "COMMIT_SENTENCE" "REPO_NAME" "BRANCH_NAME"
     
     or for running tests and commit in parallel
     
-    ./giti -p 
+    ./giti -p "COMMIT_SENTENCE" "REPO_NAME" "BRANCH_NAME"
 ps: You can change the push line to match your repo so you dont have to pass as parameter all the time
 
