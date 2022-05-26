@@ -15,7 +15,7 @@
     
     Usage:
     
-    ./giti "COMMIT_SENTENCE" "REPO_NAME" "BRANCH_NAME"
+    ./giti "COMMIT_SENTENCE" "REPO_NAME BRANCH_NAME"
     
     or for running tests and commit in parallel
     
